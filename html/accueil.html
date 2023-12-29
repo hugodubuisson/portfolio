@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/accueil.css" rel="stylesheet" />
+    <script src="../js/accueil.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Dubuisson Hugo - Portfolio</title>
+  </head>
+  <body id="accueil">
+    <nav class="nav-bar">
+      <a href="#accueil">Accueil</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <article class="haut">
+
+    <p class="junior">Junior Developer</p>
+    
+    <p class="title1">Dubuisson Hugo - Portfolio</p>
+
+    <section class="info">
+
+        <h1 class="qui"> Qui suis-je ?</h1>
+
+        <p class="presentation"> Je suis un apprenti développeur, en 2eme année de BUT <br>Informatique à l'IUT de Lens. </p>
+
+        <p class="pres-precis">Je m'intéresse aux ordinateurs et aux jeux vidéo depuis que je suis enfant et à l'âge de 16 ans un nouveau monde m'a attiré, celui 
+            de la sécurité informatique, j'ai commencé à apprendre la programmation pour pouvoir créer des virus ou alors trouver des failles de sécurité ou même créer des modes de triche
+            (Par exemple sur Minecraft). C'est pourquoi le monde du développement est celui qui me plait.</p>
+    
+    </section>
+    
+    </article>
+    
+
+    <article class="skills" id="competences">
+      <h3>Mes Compétences</h3>
+      
+      <h4>Web</h4>
+      <section class="category" id="web">
+        <img src="../images/html css2.png" alt="log1" class="htmlcss"/>
+        <img src="../images/php2.png" alt="log1" class="php"/>
+      </section>
+    
+      <h4>Programmation</h4>
+      <section class="category" id="programmation">
+        <img src="../images/python2.png" alt="log1" class="python"/>
+        <img src="../images/java2.png" alt="log2" class="java"/>
+      </section>
+
+      <h4>Outils</h4>
+      <section class="category" id="outils">
+        <img src="../images/eclipse2.png" alt="log1" class="eclipse"/>
+        <img src="../images/github2.png" alt="log2" class="github" />
+        <img src="../images/gitlab2.png" alt="log3" class="gitlab"/>
+        <img src="../images/vs2.png" alt="log4" class="vs"/>
+      </section>
+    </article>
+
+
+
+
+    <h3 id="projets">Mes Projets</h3>
+
+    <article class="projects">
+      
+      <section class="project-container">
+        <section class="project-column">
+          <section class="project-item">
+            <h4>Conception d'un Agenda</h4>
+            <p class="gras">Date : Janvier 2023</p>
+            <p class="gras">Type(s):</p>
+            <p class="typeCode">Python</p> <p class="typeCode">Web</p>
+            <p class="gras">État:</p>
+            <p class="typeCode">Terminé</p>
+            <p class="gras">Description courte:</p>
+            <p class="commentaire">Création d’un Agenda Python vers HTML à l'aide d’une librairie “www” <br>(Créé par un Professeur), cet Agenda permet d’ajouter des informations <br>chaque jour de la semaine entre 8h et 20h.</p>
+            <p class="gras">Illustration:</p>
+            <img src="../images/Projet1.png" alt="Image projet 1" class="projetImg"/>
+          </section>
+    
+          <section class="project-item hidden-project">
+              <h4>Conception d'un site Web Portfolio</h4>
+              <p class="gras">Date : Decembre 2023</p>
+              <p class="gras">Type(s):</p>
+              <p class="typeCode">HTML</p> <p class="typeCode">CSS</p> <p class="typeCode">JavaScript</p>
+              <p class="gras">État:</p>
+              <p class="typeCode">Terminé</p>
+              <p class="gras">Description courte:</p>
+              <p class="commentaire">Conception d'un site web Portofilio en HTML/CSS avec du script JavaScript. <br>J'ai utilisé des flexbox et des animation natives au css</p>
+              <p class="gras">Illustration:</p>
+              <img src="../images/PortfolioIMG.png" alt="Image projet 3" class="projetImg"/>
+          </section>
+
+          <section class="project-item hidden-project">
+            <h4>Bataille Navale</h4>
+              <p class="gras">Date : Janvier 2023</p>
+              <p class="gras">Type(s):</p>
+              <p class="typeCode">Java</p> <p class="typeCode">JavaFX (FXML)</p>
+              <p class="gras">État:</p>
+              <p class="typeCode">Terminé</p>
+              <p class="gras">Description courte:</p>
+              <p class="commentaire">L’interface utilisateur était à concevoir dans son entièreté et <br> toutes les fonctions nécessaires au fonctionnement <br>du jeu ont dû être développées.</p>
+              <p class="gras">Illustration:</p>
+              <img src="../images/Projet6.png" alt="Image projet 5" class="projetImg"/>
+          </section>
+        </section>
+    
+        <section class="project-column">
+          <section class="project-item">
+            <h4>Conception de FlatCraft</h4>
+            <p class="gras">Date : Septembre 2023</p>
+            <p class="gras">Type(s):</p>
+            <p class="typeCode">Java</p>
+            <p class="gras">État:</p>
+            <p class="typeCode">En Cours</p>
+            <p class="gras">Description courte:</p>
+            <p class="commentaire">Conception d'un projet FlatCraft (Comme un Minecraft mais en 2D) <br>déplacement d'un personnage, déplacement aléatoirement <br>de créatures, génération de map etc, tout ça en java.</p>
+            <p class="gras">Illustration:</p>
+            <img src="../images/flatcraft.png" alt="Image projet 2" class="projetImg2"/>
+          </section>
+
+          <section class="project-item hidden-project">
+            <h4>Marathon Web</h4>
+              <p class="gras">Date : Decembre 2023</p>
+              <p class="gras">Type(s):</p>
+              <p class="typeCode">HTML</p> <p class="typeCode">CSS</p> <p class="typeCode">JavaScript</p> <p class="typeCode">PHP</p>
+              <p class="gras">État:</p>
+              <p class="typeCode">Terminé</p>
+              <p class="gras">Description courte:</p>
+              <p class="commentaire">Conception d'un site web pour lire des histoires interactives <br>avec un système d'authentification, un système de profil.</p>
+              <p class="gras">Illustration:</p>
+              <img src="../images/Projet4.png" alt="Image projet 4" class="projetImg"/>
+          </section>
+
+          <section class="project-item hidden-project">
+            <h4>Projet RayTracing</h4>
+              <p class="gras">Date : Octobre 2023</p>
+              <p class="gras">Type(s):</p>
+              <p class="typeCode">Java</p>
+              <p class="gras">État:</p>
+              <p class="typeCode">Terminé</p>
+              <p class="gras">Description courte:</p>
+              <p class="commentaire">Création d'un projet pour pouvoir afficher des ombres, <br>des reflets etc sur des objets en 4D à partir de paramètres donnés <br> dans un fichier texte.</p>
+              <p class="gras">Illustration:</p>
+              <img src="../images/projet5.png" alt="Image projet 5" class="projetImg"/>
+          </section>
+        </section>
+      <button class="btn-voir-plus" onclick="loadMoreProjects()">Voir Plus</button>
+      <button class="btn-voir-moins" onclick="loadLessProjects()">Voir Moins</button>
+      </section>
+    </article>
+
+    
+    
+    <footer class="footer" id="contact">
+      <h1 class="contact">Contact</h1>
+      <div class="contact-info">
+        <p class="mail">Email: hugo.dubuisson59@gmail.com</p>
+        <p class="phone">Téléphone: 07 84 93 94 02</p>
+      </div>
+      <a href="https://www.linkedin.com/in/hugo-dubuisson-30a825274/" target="_blank">
+        <img src="../images/linkedin2.png" alt="LinkedIn" class="linkedin-logo" />
+      </a>
+    </footer>
+
+    <div class="main-content" id="accueil">
+        <a href="../images/CV.pdf" class="btn-cv">Voir mon CV</a>
+  </body>
+</html>
