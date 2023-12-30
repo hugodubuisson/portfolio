@@ -194,12 +194,6 @@ h4 {
   margin: 5px 0;
 }
 
-.linkedin-logo {
-  width: 100px;
-  height: 100px;
-  cursor: pointer;
-}
-
 footer .contact {
   font-size: 40px;
 }
@@ -297,7 +291,7 @@ footer .contact {
   background-color: #515151;
   color: #fff;
   border: 2px solid #000000;
-  border-radius: 15px; /* Ajout de bordures arrondies */
+  border-radius: 15px;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -372,7 +366,7 @@ h4 {
   background-color: #515151;
   color: #fff;
   border: 2px solid #000000;
-  border-radius: 15px; /* Ajout de bordures arrondies */
+  border-radius: 15px;
   transition: background-color 0.3s, color 0.3s;
   display: none;
 }
@@ -380,4 +374,23 @@ h4 {
 .btn-voir-moins:hover {
   background-color: #2b2b2b;
   color: #fff;
+}
+
+.githublogo {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.linkedin-logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
