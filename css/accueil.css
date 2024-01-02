@@ -207,19 +207,27 @@ footer .contact {
 }
 
 .htmlcss {
-  width: 200px;
+  width: 150px;
 }
 
 .php {
-  width: 300px;
+  width: 200px;
+}
+
+.js2 {
+  width: 150px;
 }
 
 .python {
-  width: 300px;
+  width: 175px;
 }
 
 .java {
-  width: 300px;
+  width: 175px;
+}
+
+.flask {
+  width: 175px;
 }
 
 .eclipse {
@@ -227,16 +235,16 @@ footer .contact {
 }
 
 .gitlab {
-  width: 175px;
+  width: 150px;
+  padding-left: 50px;
 }
 
 .github {
-  width: 200px;
+  width: 140px;
 }
 
 .vs {
-  width: 150px;
-  padding-right: 50px;
+  width: 230px;
 }
 
 .category img {
@@ -245,13 +253,17 @@ footer .contact {
 }
 
 .category {
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .category img {
-  margin: 20px;
+  margin: 0 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Projets */
@@ -272,6 +284,7 @@ footer .contact {
 
 .project-item {
   border: 1px solid #ccc;
+  border-radius: 20px;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -375,12 +388,20 @@ h4 {
 .githublogo {
   width: 80px;
   height: 80px;
+  padding-left: 10px;
+  padding-right: 12px;
   cursor: pointer;
 }
 
 .linkedin-logo {
   width: 100px;
   height: 100px;
+  cursor: pointer;
+}
+
+.cvlogo {
+  width: 80px;
+  height: 80px;
   cursor: pointer;
 }
 
@@ -423,4 +444,21 @@ h4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.imageRu {
+  border: none;
+}
+
+.imageFr {
+  border: none;
+}
+
+.redirection-image {
+  width: 30px;
+  cursor: pointer;
+}
+
+.imagefr2 {
+  width: 30px;
 }
